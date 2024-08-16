@@ -7,9 +7,10 @@ import { useState, useEffect } from "react";
 function Header() {
   const [isLoading, setIsLoading] = useState(false);
   const [paths, setPaths] = useState({});
+
   const color = document.documentElement.classList.contains("dark")
-    ? "#0A0A14"
-    : "#D9D9D9";
+    ? "#D9D9D9"
+    : "#0A0A14";
 
   useEffect(() => {
     const fetchPaths = async () => {
@@ -48,15 +49,15 @@ function Header() {
         <img
           src="/Rectangle 2.svg"
           alt=""
-          className="absolute top-16 -left-4 rounded dark:color-[#E92577] "
+          className="absolute top-20 -left-4 rounded dark:color-[#E92577] "
         />
-        <p className="font-medium text-sm pb-5 ">
+        <p className="font-medium text-2xl pb-5 font-inter">
           {useTranslation(paths.greeting)}
         </p>
         <p className="font-inter font-normal text-3xl pb-6 relative">
           {useTranslation(paths.description)}
         </p>
-        <span className="flex gap-2 pb-4 ">
+        <span className="flex gap-2 pb-4 w-12 h-12 ">
           <IconsLinkedln color={color} />
           <IconsGithub color={color} />
           {/* <img className="w-6 h-6 " src="LinkedIn.svg" alt="" /> */}
@@ -72,8 +73,13 @@ function Header() {
         </p>
       </div>
 
-      <div className="w-1/2 flex items-center justify-center ">
-        <img src="/foto.png" alt="" className="rounded-3xl w-2/3 " />
+      <div className="w-1/2 flex items-center justify-center relative">
+        <img
+          src="/Rectangle 3.png"
+          alt=""
+          className="absolute rounded-3xl w-2/3 right-20 bottom-14"
+        />
+        <img src="/foto.png" alt="" className="rounded-3xl w-2/3 z-20" />
       </div>
     </div>
   );

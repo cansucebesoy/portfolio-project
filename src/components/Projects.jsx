@@ -28,11 +28,11 @@ function Projects() {
           <span className="bg-white rounded-full px-3  text-sm font-bold font-PlayfairDisplay dark:bg-[#525252] dark:text-white">
             router
           </span>
-          <div className="flex justify-between pt-6">
+          <div className="flex justify-between pt-4">
             <span className="font-semibold">View on Github</span>
             <span className="font-semibold">Go to app → </span>
           </div>
-          <img className="relative -bottom-16" src="/Group 103.svg" alt="" />{" "}
+          <img className="relative -bottom-20" src="/Group 103.svg" alt="" />{" "}
         </div>
         <div className=" w-1/2 bg-[#D9F6F1] rounded-lg pt-8 px-6 dark:bg-[#495351]">
           <h2 className="font-bold font-PlayfairDisplay text-2xl">
@@ -61,11 +61,11 @@ function Projects() {
           <span className="bg-white rounded-full px-3 text-sm font-bold font-PlayfairDisplay dark:bg-[#525252] dark:text-white">
             vercel
           </span>
-          <div className="flex justify-between pt-6">
+          <div className="flex justify-between pt-4 ">
             <span className="font-semibold">View on Github</span>
             <span className="font-semibold">Go to app → </span>
           </div>
-          <img className="relative -bottom-6" src="/Frame 104.svg" alt="" />
+          <img className="relative -bottom-8" src="/Frame 104.svg" alt="" />
         </div>
       </div>
     </div>

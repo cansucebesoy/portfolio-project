@@ -20,7 +20,7 @@ function Skills() {
         alt=""
         className="absolute left-0 bottom-8 rounded-r-full"
       />
-      <div className="font-inter font-normal text-3xl">
+      <div className="font-inter font-normal text-3xl text-black dark:text-white">
         {useTranslation("skills.title")}
       </div>
       <div className="flex gap-5">

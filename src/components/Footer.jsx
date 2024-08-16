@@ -5,7 +5,7 @@ function Footer() {
         <img
           src="/Rectangle 40.png"
           alt=""
-          className="absolute top-6 left-20 rounded-lg"
+          className="absolute top-6 left-20 rounded w-3/5"
         />
         <p className="relative">
           Let's work together on <br />

@@ -6,14 +6,12 @@ import Profile from "./components/profile";
 import Projects from "./components/projects";
 import Skills from "./components/skills";
 import { UserContextProvider } from "./contexts/UserContext";
-import Translation from "./Translation/Translation";
 
 function App() {
   return (
     <>
       <UserContextProvider>
         <ModeSwitch />
-        <Translation />
         <Header />
         <Skills />
         <Profile />

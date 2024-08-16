@@ -10,9 +10,11 @@ export const UserContextProvider = ({ children }) => {
     localStorage.setItem("theme", theme);
     document.body.className = theme;
   }, [theme]);
+
   const [lang, setLang] = useState(() => {
     return localStorage.getItem("lang") || "english";
   });
+
   useEffect(() => {
     localStorage.setItem("lang", lang);
   }, [lang]);
