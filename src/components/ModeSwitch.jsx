@@ -23,7 +23,7 @@ function ModeSwitch() {
   }, []);
 
   return (
-    <div className="text-[inter] font-semibold text-sm bg-[#F5F5F5] text-[#777777] dark:bg-[#2A262B] flex items-center px-24 pt-10 justify-end">
+    <div className="text-[inter] font-semibold text-sm bg-[#F5F5F5] text-[#777777] dark:bg-[#2A262B] flex items-center px-8 sm:px-24 pt-10 justify-end">
       <ReactSwitch
         onChange={toggleTheme}
         checked={theme === "dark"}
