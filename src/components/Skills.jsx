@@ -57,8 +57,8 @@ function Skills() {
         {useTranslation("skills.title")}
       </div>
       <div className="flex gap-x-8">
-        {skills.map((skill) => (
-          <div className="flex flex-col items-center gap-y-2">
+        {skills.map((skill, index) => (
+          <div key={index} className="flex flex-col items-center gap-y-2">
             <img
               className="rounded w-12 h-12 md:w-20 md:h-20"
               src={skill.fileName}

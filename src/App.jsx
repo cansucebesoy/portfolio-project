@@ -1,10 +1,10 @@
 import "./App.css";
-import Footer from "./components/footer";
-import Header from "./components/header";
-import ModeSwitch from "./components/modeSwitch";
-import Profile from "./components/profile";
-import Projects from "./components/projects";
-import Skills from "./components/skills";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import ModeSwitch from "./components/ModeSwitch";
+import Profile from "./components/Profile";
+import Projects from "./components/Projects";
+import Skills from "./components/Skills";
 import { UserContextProvider } from "./contexts/UserContext";
 
 function App() {

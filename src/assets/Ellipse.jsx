@@ -7,7 +7,7 @@ export const Ellipse = ({ color }) => {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <circle cx="60.5" cy="60.5" r="50" stroke={color} stroke-width="21" />
+      <circle cx="60.5" cy="60.5" r="50" stroke={color} strokeWidth="21" />
     </svg>
   );
 };
